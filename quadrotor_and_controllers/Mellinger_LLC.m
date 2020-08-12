@@ -1,5 +1,10 @@
 classdef Mellinger_LLC < low_level_controller
-% Adapted from: http://lewissoft.com/assets/pdf/uPennTrajectoryGeneration.pdf
+% Adapted from "Minimum Snap Trajectory Generation and Control for
+% Quadrotors" by Daniel Mellinger and Vijay Kumar
+%
+% Author: Shreyas Kousik
+% Created: some time in April 2019?
+% Updated: 11 Aug 2020
     properties
         % these gain matrices were tuned by hand for the quadrotor_agent
         K_p = 2*eye(3) ;
